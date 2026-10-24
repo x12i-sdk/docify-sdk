@@ -1,0 +1,22 @@
+{
+  "name": "docify-sdk-usage",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Usage example for @x12i/docify-sdk: create a small bundled knowledge sdk and read a guide.",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node src/index.mjs",
+    "check": "node --check src/index.mjs"
+  },
+  "dependencies": {
+    "@x12i/docify-sdk": "1.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/x12i-sdk/docify-sdk.git"
+  },
+  "homepage": "https://www.npmjs.com/package/@x12i/docify-sdk"
+}
